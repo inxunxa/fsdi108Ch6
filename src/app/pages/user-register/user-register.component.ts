@@ -23,5 +23,4 @@ export class UserRegisterComponent implements OnInit {
     // save the user (this.model) into a service
     this.dataSrv.saveUser(this.model);
   }
-
 }
