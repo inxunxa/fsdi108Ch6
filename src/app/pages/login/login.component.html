@@ -1,1 +1,32 @@
-<p>login works!</p>
+<div class="row">
+  <div class="col-6 offset-3">
+
+    <h3>Login</h3>
+
+    <div class="form-group row">
+      <label class="col-3 col-form-label">User Name</label>
+      <div class="col-9">
+        <input type="text" class="form-control" [(ngModel)]="userName" name="userName">
+      </div>
+    </div>
+
+
+    <div class="form-group row">
+      <label class="col-3 col-form-label">Password</label>
+      <div class="col-9">
+        <input type="password" class="form-control" [(ngModel)]="password" name="password">
+      </div>
+    </div>
+
+    <div class="form-group row">
+      <div class="col-9 offset-3">
+        <button (click)="validateLogin()" class="btn btn-primary">Login</button>
+      </div>
+    </div>
+
+    <!-- display an error alert when login failed -->
+
+    <!-- display an success alert when login succeed -->
+
+  </div>
+</div>
